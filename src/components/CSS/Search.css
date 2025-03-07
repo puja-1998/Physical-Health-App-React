@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 40px;
+}
+.searchdiv{
+    height: 40px;
+    width: 800px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border: none;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+}
+.searchdiv input{
+    height: 100%;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    font-size: large;
+}
+.searchdiv button{
+    height: 100%;
+    width: 20%;
+    background-color: antiquewhite;
+    border: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
